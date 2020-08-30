@@ -1,0 +1,73 @@
+WORKSHEET 2 ANSWERS
+PYTHON 
+
+Q1 to Q8 have only one correct answer. Choose the correct option to answer your question.
+1. Which of the following is not a core datatype in python?
+B) struct
+
+2. Which of the following is an invalid variable name in python?
+C) 1_no 
+
+3. Which one of the following is a keyword in python?
+A) in 
+
+4. In which of the following manner are the operators of the same precedence executed in python?
+B) BODMAS
+
+
+5. Arrange the following in decreasing order of the precedence when they appear in an expression in python?
+i) Multiplication ii) Division iii) Exponential iv) Parentheses
+C) iv – iii – ii – i 
+
+6. (28//6)**3/3%3 = ?
+C) 0.3333… 
+
+7. Which of the following is not equal to x16 ?
+A) x**4**4 
+
+8. a = input(“Enter an integer”). What will be the data type of a?
+C) float 
+
+Q9 and Q10 have multiple correct answers. Choose all the correct options to answer your question.
+9. Which of the following statements are correct?
+A) Division and multiplication have same precedence in python
+D) In case of operators’ having same precedence, the one on the left side is executed first.
+
+10. Which of the following is(are) valid statement(s) in python?
+A) abc = 1,000,000 C) a,b,c = 1000, 2000, 3000 D) a_b_c = 1,000,000
+
+Q11 to Q13 are subjective questions, answer them briefly
+11. Differentiate between a list, tuple, set and dictionary.
+
+Ans: List - lists are mutable it can be changed after creation and also list cannot be used as key in dictionary because dictionary itself are immutable.	
+     Tuples - tuples are immutable it cannot be changed after creation but it can be used in dictionary as tuples and dictionary both are immutable.
+     Sets - A set is a collection of unique keys. it is similar to dictionary but it only holds single value not like Key:Value Pair.
+     Dictionary - A dictionary is a collection of key:value pair. Eg{'A':1} it is mutable and have unordered collection. where as list and tuples are ordered
+                  collection of items.
+
+
+
+
+12. Are strings mutable in python? Suppose you have a string “I+Love+Python”, write a small code to replace ‘+’ with space in python.
+
+Ans: Strings are immutable reason being their value cannot be updated.
+
+     text="I+Love+Python"
+     result=text.replace("+"," ")
+     print(result)
+
+13. What does the function ord() do in python? Explain with example. Also, write down the function for getting the datatype of a variable in python.
+
+Ans: The ord() function returns the number representing the unicode code of a specified character.
+     type() function is used to fetch the datatype of a variable.
+     eg. type(a) // 'a' being any input
+
+Q14 and Q15 are programming questions. Answer them in Jupyter Notebook.
+14. Write a python program to solve a quadratic equation of the form 𝑎𝑥2+𝑏𝑥+𝑐=0. Where a, b and c are to be taken by user input.
+    Handle the erroneous input, such as ‘a’ should not be equal to 0.
+
+Ans: Check Link- https://github.com/rahul-datahelper/Fliprobo-Worksheets/blob/master/Python%20Worksheet%202%20-%20Q.14%20and%20Q.15.ipynb
+
+15. Write a python program to find the sum of first ‘n’ natural numbers without using any loop. Ask user to input the value of ‘n’.
+
+Ans: Check Link- https://github.com/rahul-datahelper/Fliprobo-Worksheets/blob/master/Python%20Worksheet%202%20-%20Q.14%20and%20Q.15.ipynb
