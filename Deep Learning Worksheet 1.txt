@@ -1,0 +1,82 @@
+WORKSHEET-1 Answers
+DEEP LEARNING
+
+Q1 to Q8 are MCQs with only one correct answer. Choose the correct option.
+1. Which of the following can approximate any function universally (i.e. universal approximators)?
+B) Neural Networks
+
+
+2. In which of the following domains we cannot use neural networks?
+C) Fraud Detection 
+
+3. Rearrange the following steps of a gradient descent algorithm in correct order of their occurrence?
+i. Initialize random weight and bias
+ii. Repeat the process until you find the best weights of network
+iii. Change weights and biases for each neuron to reduce the error
+iv. Calculate error distances between the actual and the predicted value
+v. Pass an input through the network and get values from output layer
+
+Choose the correct option:
+C) i – v – iv – iii – ii 
+
+4. What is the full form of RNN?
+A) Recurrent Neural Network 
+
+5. What is plasticity in neural networks?
+A) input pattern keeps on changing 
+
+6. What is stability plasticity dilemma?
+A) system can neither be stable nor plastic
+
+
+7. Read the following statements:
+Statement 1: It is possible to train a network well by initializing all the weights as 0
+Statement 2: It is possible to train a network well by initializing biases as 0
+Which of the statements given above is true, Choose the correct option?
+
+B) Statement 2 is true while statement 1 is false
+
+
+8. Which of the following architecture has feedback connections?
+A) Recurrent Neural network
+
+Q9 and Q10 are MCQs with one or more correct answers. Choose all the correct options.
+9. In training a neural network, you notice that the loss does not decrease in the few starting epochs. The reason behind it could be
+A) Learning Rate is low 
+B) Regularisation parameter is high
+D) Stuck at local minima
+
+10. Which of the following function(s) can be used to impart non – linearity in a neural network?
+B) Rectified Linear Unit
+
+
+Q11 to Q15 are subjective answer type question. Answer them briefly.
+11. What is Deep Learning?
+
+Ans: Deep learning is a subset of machine learning. It is a field that is based on learning and improving on its own by examining computer algorithms.
+     Deep learning has aided image classification, language translation, speech recognition. It can be used to solve any pattern recognition problem 
+     and without human intervention.
+
+12. What is reinforcement learning?
+
+Ans: Reinforcement learning is the training of machine learning models to make a sequence of decisions.
+
+13. What Are the Differences Between Machine Learning and Deep Learning?
+
+Ans: Machine learning uses algorithms to parse data, learn from that data, and make informed decisions based on what it has learned. 
+     Deep learning structures algorithms in layers to create an "Artificial Neural Network” that can learn and make intelligent decisions on its own.
+
+14. What is a perceptron?
+
+Ans: A perceptron is a neural network unit that does certain computations to detect features or business intelligence in the input data.
+     A Perceptron is an algorithm for supervised learning of binary classifiers. This algorithm enables neurons to learn and processes 
+     elements in the training set one at a time.
+
+
+15. What’s the difference between AI and ML?
+
+Ans: In Machine learning, algorithms acquire the knowledge or skill through experience. 
+     Machine learning relies on big data sets to remind the data to find common patterns.
+
+     Artificial Intelligence learns by acquiring knowledge and learning how to apply it.
+     The aim of artificial intelligence is to increase the chances of success and to find the optimal solution.
