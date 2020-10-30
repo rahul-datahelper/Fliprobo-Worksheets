@@ -1,0 +1,22 @@
+MACHINE LEARNING 
+WORKSHEET 6- ANSWERS
+ 
+1- Yes
+
+2- Green
+
+3- They cannot be used when the data is not completely linearly separable while allowing no errors
+
+4- All of the above
+
+5- Yes
+
+6- They allow some degree of errors or misclassification They can be used in case data is not completely linearly separable
+
+7- They use the kernel tricks to escape the complex computations required to transform the data They take the data from lower dimensional space to some higher dimensional space in case the data is not likely to be linearly separable
+
+8- These functions gives value of the dot product of pairs of data-points in the desired higher dimensional space without even explicitly converting the whole data in to higher dimensional space
+
+9- It is a model trained using supervised learning. It can be used for classification and regression
+
+10-All of the above
