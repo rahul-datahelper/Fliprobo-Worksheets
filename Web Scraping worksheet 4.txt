@@ -1,0 +1,37 @@
+Solutions:
+
+1) Ans. D) None of the above
+
+2) Ans. C) find_element_by_tag_name()
+
+3) Ans. B) Explicit wait
+
+4) Ans. C) staleness_of
+
+5) Ans. B) Very Slow
+
+6) Ans. A) For large data Scrapy is faster than selenium
+
+7) Ans. D) both A & B
+
+8) Ans. C) Hyper Text Markup Language	
+
+9) Ans. B)soup=BeautifulSoup(html_doc,’html.parser’)
+
+10) Ans. D) “html-xml”
+
+11) Ans. C) find_next()
+
+12) Ans. A) find_previous_siblings()
+
+13) Ans. C) limit
+
+14) Ans. B) recursive = False
+
+15) Ans. BeautifulSoup's find() and findAll() methods can easily filter HTML (XML) files with different attributes in the HTML code to find the desired 
+    tag group or individual tags.
+    find()：Gets the first tag of the incoming HTML object that satisfies the condition and returns. A function of a label group or a single label.
+    Prototype: find(tag, attributes, recursive, text, keywords)
+    findAll()：
+    Get all the conditions of the incoming HTML object and return it.
+    Prototype: findAll(tag, atributes, recursive, text, limit, keywords)
