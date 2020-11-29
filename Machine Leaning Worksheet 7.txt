@@ -1,0 +1,23 @@
+MACHINE LEARNING
+WORKSHEET – 7
+Answers
+
+1)	A) SVMs use hyperplanes as decision boundary for classification. 
+ 
+2)	B) Blue
+
+3)	A) The RBF is used to find the linear classifier for the data in to infinite dimensional space. 
+
+4)	B) A Soft Margin Linear classifier
+
+5)	B) The margin width will Increase
+
+6)	A) Figure A
+
+7)	C) D3>D2>D1
+
+8)	C) Gamma2 > Gamma 1
+
+9)	B) The model would consider only the points close to the hyperplane for modelling
+
+10)	A) A large number of misclassification would happen
