@@ -1,0 +1,21 @@
+Statistics 
+Worksheet 3
+
+Answers
+
+
+1)	D) Expected
+2)	C) Frequencies
+3)	C) 6
+4)	B) Chi - squared distribution
+5)	C) F-Distribution, D) Poisson Distribution
+6)	B) Hypothesis
+7)	A) Null Hypothesis
+8)	A) Two tailed
+9)	B) Research Hypothesis
+10)	A) np
+11)	B) Discrete distribution
+12)	D) √npq----
+13)	B) 0.009
+14)	D) 0 and 1
+15)	B) increases
