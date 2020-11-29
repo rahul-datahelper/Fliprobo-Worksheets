@@ -1,0 +1,47 @@
+SQL
+WORKSHEET – 4
+Answers
+
+ANS 1) 
+select(select count(shippedDate) from orders)/(select count(distinct(shippedDate)) from orders) as average_shipped_products_per_day;
+
+ANS 2) 
+select(select count(orderDate) from orders)/(select count(distinct(orderDate)) from orders) as average_order_products_per_day;
+
+ANS 3) 
+select productName, MSRP from products order by MSRP limit 1;
+
+ANS 4) 
+select productName, quantityinStock from products order by quantityinStock desc limit 1;
+
+ANS 5) 
+SELECT p.productName FROM products as p JOIN orderdetails as o  using(productCode)  GROUP BY p.productCode  ORDER BY  Sum(quantityOrdered) DESC LIMIT 1;
+
+ANS 6) 
+select c.customerNumber,c.customerName,p.amount from customers as c JOIN payments as p USING(customerNumber) order by amount desc limit 1;
+
+ANS 7) 
+select customerNumber, customerName from customers where city='Melbourne';
+
+ANS 8) 
+select customerNumber, customerName from customers where customerName like "N%";
+
+ANS 9) 
+select customerNumber, customerName from customers where city='Las Vegas' and phone like '^7.*';
+
+ANS 10) 
+select customerNumber, customerName from customers where city='Las vegas' or city='Stavern' or city='Nantes' and creditLimit < 1000;
+ANS 11) 
+select ordernumber from orderDetails where quantityOrdered <10;
+
+ANS 12) 
+select o.ordernumber,c.customerName from orders as o JOIN customers as c using(customerNumber) where customerName like 'N%';
+
+ANS 13) 
+SELECT c.customerName from customers as c JOIN orders as o  using (customerNumber) WHERE status = 'Disputed';
+
+ANS 14) 
+select c.customerName from customers as c JOIN payments as p using(customerNumber) where checkNumber like 'H%';
+
+ANS 15) 
+select checkNumber, amount from payments  where amount >1000;
