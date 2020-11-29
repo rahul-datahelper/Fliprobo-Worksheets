@@ -1,0 +1,37 @@
+Statistics
+WORKSHEET – 6
+Answers
+
+1)	b) Total Variation = Residual Variation + Regression Variation
+2)	c) binomial
+3)	a) 2
+4)	(a) Type-I error
+5)	(c) Level of confidence
+6)	(a) Decreases
+7)	(b) Hypothesis
+8)	(d) All of the mentioned
+9)	(a) 0
+10)	Bayes' Theorem is a way of finding a probability when we know certain other probabilities. The formula is: P(A|B) =  P(A) P(B|A)P(B) Which tells us:
+        how often A happens given that B happens, written P(A|B), When we know:how often B happens given that A happens, written P(B|A) and how likely A is on its own,
+        written P(A) and how likely B is on its own, written P(B)
+
+11)	A Z-score is a numerical measurement that describes a value's relationship to the mean of a group of values. Z-score is measured in terms of standard 
+        deviations from the mean. If a Z-score is 0, it indicates that the data point's score is identical to the mean score. A Z-score of 1.0 would indicate a 
+        value that is one standard deviation from the mean. Z-scores may be positive or negative, with a positive value indicating the score is above the mean 
+        and a negative score indicating it is below the mean.
+
+12)	The t score is a ratio between the difference between two groups and the difference within the groups. The larger the t score, the more difference 
+        there is between groups. The smaller the t score, the more similarity there is between groups. A t score of 3 means that the groups are three times as
+        different from each other as they are within each other. When you run a t test, the bigger the t-value, the more likely it is that the results are repeatable. 
+        A large t-score tells you that the groups are different. A small t-score tells you that the groups are similar.
+
+13)	A percentile is a term used in statistics to express how a score compares to other scores in the same set. While there is technically no standard definition
+        of percentile, it's typically communicated as the percentage of values that fall below a particular value in a set of data scores. Percentiles are 
+        commonly used to report values from norm-referenced tests (in which the average is determined by comparing a set of results in the same group) as the 
+        percentages of scores that fall below those of the average of the set. For example, a male child age 12 with a weight of 130 pounds is at the 90th
+        percentile of weight for males of that age, which indicates that he weighs more than 90 percent of other 12-year-old boys.
+
+14)	Analysis of variance refers to a set of techniques for comparing sample means among two or more groups. If the comparison reveals a statistically significant
+        difference, the researcher concludes that the population means in one or more groups are different
+
+15)	ANOVA help to figure out if we need to reject the null hypothesis or accept the alternate hypothesis.
