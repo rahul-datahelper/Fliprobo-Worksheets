@@ -1,0 +1,46 @@
+MACHINE LEARNING – WORKSHEET 8 (REGRESSION)
+Answers
+
+1. X represents the set of all predictors (X1, X2, X3...) and Y represents a continuous response variable. Then in regression, we try to find a function f such that
+Y=f(X)+Є
+Where Є is random error term
+Which of the following terms are true regarding the Є term?
+Answer: A&C
+
+2. What does this error term Є account for?
+Answer: A&C 
+
+3. X represents the set of all predictors (X1, X2, X3...) and Y represents a continuous response variable. Then in regression, we try to find a function f such that
+Y=f(X)+Є
+Where Є is random error term
+Which of the following is true regarding the random error Є?
+Answer: C
+
+4. In which of the following scenarios we can use regression technique?
+Answer: A&B
+
+5. X represents the set of all predictors (X1, X2, X3...) and Y represents a continuous response variable. Then in regression, we try to find a function f such that
+Y=f(X)+Є
+Where Є is random error term
+Answer: D
+
+6. Which of the following methods is most commonly used for fitting a curve to data?
+Answer: B&C
+
+7. Consider the following image and answer the following question?
+Which of the following functions should be used here for regression?
+y1= response variable
+x1= predictor variable
+Answer:C
+
+8. Consider the following image and answer the following question?
+Choose the functions is best suited here for regression?
+Answer: A
+
+9. Consider the following image and answer the following question?
+which of the following is true regarding the Pearson correlation coefficient P?
+Answer: C
+
+10. Consider the following image and answer the question:
+Which of the following is true regarding the data in above picture?
+Answer: B
