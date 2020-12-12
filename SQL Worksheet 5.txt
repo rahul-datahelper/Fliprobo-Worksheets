@@ -1,0 +1,54 @@
+SQL WORKSHEET 5
+(Solutions)
+ANS 1) 
+select * from movie;
+
+ANS 2)
+select title from movie order by runtime desc limit 1;
+
+ANS 3)
+select title from movie order by revenue desc limit 1;
+
+ANS 4)
+select title from movie order by budget desc limit 1;
+
+ANS 5) 
+Select title, gender, character_name, cast_order, person_name from movie m INNER JOIN movie_cast mc ON m.movie_id=mc.movie_id 
+INNER JOIN gender g ON g.gender_id=mc.gender_id INNER JOIN person p ON p.person_id= mc.person_id;
+
+ANS 6) 
+select country_name, count(country_name) as count from country as c inner join production_country as pc
+on pc.country_id=c.country_id
+groupby country_name order by count desc limit 1;
+
+
+ANS 7)
+select * from genre;
+
+ANS 8)
+select language_name, title from language l INNER JOIN movie_languages ml ON l.language_id=ml.language_id INNER JOIN movie m ON ml.movie_id=m.movie_id;
+
+ANS 9)
+select movie_id, title, count(cast.person_id) as cast_count,  count(crew.person_id) as crew_count
+from movie as m inner join movie_cast as cast on cast.movie_id=m.movie_id
+inner join movie_crew as crew on crew.movie_id=m.movie_id 
+groupby movie_id;
+
+ANS 10)
+select title from movie order by popularity desc limit 10;
+
+ANS 11)
+select title from movie order by revenue desc offset 3 limit 1; 
+
+ANS 12)
+select title from movie where movie_status like ‘rumored’; 
+
+ANS 13)
+select c.country_name, p.movie_id, m.title  from country as c JOIN production_country as p USING(country_id) JOIN movie as m USING (movie_id) 
+order by revenue desc limit 1;
+
+ANS 14)
+select m.movie_id, p.company_name from movie_company as m JOIN production_company as p USING (company_id);
+
+ANS 15)
+select title from movie order by budget desc limit 20;
